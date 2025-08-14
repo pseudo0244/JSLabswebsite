@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS Labs Diagnostic Center </title>
-    <meta name="description" content="JS Labs Diagnostic Center Bengaluru - Blood tests, health packages, free home collection. Tests starting at ₹50. Call +91 8088039159 for appointments." />
-    <meta name="author" content="JS Labs Diagnostic Center" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  </head>
+  <!-- Title & Description -->
+  <title>JS Labs Diagnostic Center – Bengaluru Blood Tests & Health Packages</title>
+  <meta name="description" content="JS Labs Diagnostic Center Bengaluru – Blood tests, health checkup packages, and free home sample collection. Tests starting at ₹50. Call +91 8088039159 for appointments.">
+  <meta name="author" content="JS Labs Diagnostic Center">
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.jslabs.in/" />
+
+  <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+  <meta property="og:title" content="JS Labs Diagnostic Center – Bengaluru Blood Tests & Health Packages">
+  <meta property="og:description" content="Blood tests, health checkup packages, and free home sample collection in Bengaluru. Starting at ₹50.">
+  <meta property="og:image" content="https://www.jslabs.in/og-image.jpg">
+  <meta property="og:url" content="https://www.jslabs.in/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JS Labs Diagnostic Center – Bengaluru Blood Tests & Health Packages">
+  <meta name="twitter:description" content="Blood tests, health checkup packages, and free home sample collection in Bengaluru. Starting at ₹50.">
+  <meta name="twitter:image" content="https://www.jslabs.in/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Sitemap Reference -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://www.jslabs.in/sitemap.xml" />
+
+  <!-- Structured Data (Schema.org for MedicalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "JS Labs Diagnostic Center",
+    "image": "https://www.jslabs.in/logo.png",
+    "url": "https://www.jslabs.in/",
+    "telephone": "+91-8088039159",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bengaluru, Karnataka",
+      "addressLocality": "Bengaluru",
+      "addressRegion": "KA",
+      "postalCode": "560001",
+      "addressCountry": "IN"
+    },
+    "description": "JS Labs Diagnostic Center – Blood tests, health checkup packages, and free home sample collection in Bengaluru. Tests starting at ₹50."
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Fallback content for crawlers and no-JS users -->
+  <noscript>
+    <h1>JS Labs Diagnostic Center – Bengaluru</h1>
+    <p>JS Labs offers blood tests, health checkup packages, and free home sample collection in Bengaluru. Tests start at ₹50. Call +91 8088039159 to book an appointment.</p>
+    <ul>
+      <li>Blood tests starting at ₹50</li>
+      <li>Full body checkup packages</li>
+      <li>Free home sample collection</li>
+      <li>Located in Bengaluru, Karnataka</li>
+    </ul>
+  </noscript>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx" defer></script>
+</body>
 </html>
